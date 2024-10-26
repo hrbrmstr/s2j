@@ -1,0 +1,19 @@
+version = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "idstools"
+version = "0.6.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b5/56/e662e03682d35a2f4eaf2c6268b7d35ba051408a521d1baa183dd554dd28/idstools-0.6.5.tar.gz", hash = "sha256:f158dc82cbbf7a8ec1a8ba17f2aa6a971fe6546a0c6c9354d4af2070d6c79f8a", size = 75104 }
+
+[[package]]
+name = "s2j"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "idstools" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "idstools" }]

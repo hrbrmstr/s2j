@@ -1,0 +1,20 @@
+[project]
+name = "s2j"
+version = "0.1.0"
+description = "Convert Suricata rules to JSON"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["idstools"]
+authors = [{ name = "boB Rudis", email = "bob@rud.is" }]
+license = { text = "MIT" }
+
+[project.scripts]
+s2j = "s2j:main"
+
+[project.urls]
+Homepage = "https://github.com/hrbrmstr/s2j"
+Repository = "https://github.com/hrbrmstr/s2j.git"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
