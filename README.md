@@ -5,7 +5,7 @@ A Python utility that reads in Suricata rules and outputs JSON.
 ## Installation
 
 ```bash
-pip install s2j
+$ python3 -m pip install -e git+https://codeberg.org/hrbrmstr/s2j.git#egg=s2j
 ```
 
 ## Usage
